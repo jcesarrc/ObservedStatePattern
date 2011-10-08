@@ -1,7 +1,5 @@
 package co.s4n.os.exceptions;
 
-
-
 /**
  * EntityWithStates
  * BusinessException
@@ -25,6 +23,7 @@ public class BusinessException extends Exception
 	 */
 	public BusinessException( )
 	{
+		super( );
 	}
 
 	/**
