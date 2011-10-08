@@ -1,4 +1,4 @@
-package co.s4n.os.exceptions;
+package co.s4n.osp.exceptions;
 
 /**
  * EntityWithStates

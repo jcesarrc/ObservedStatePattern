@@ -1,4 +1,4 @@
-package co.s4n.os;
+package co.s4n.osp;
 
 import java.io.Serializable;
 

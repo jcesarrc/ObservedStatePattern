@@ -1,13 +1,13 @@
-package co.s4n.os;
+package co.s4n.osp;
 
 import java.util.List;
 
-import co.s4n.os.events.DomainEvent;
-import co.s4n.os.events.DomainEventType;
-import co.s4n.os.exceptions.BusinessException;
-import co.s4n.os.exceptions.HasSameStateException;
-import co.s4n.os.observer.Observable;
-import co.s4n.os.observer.Observer;
+import co.s4n.osp.events.DomainEvent;
+import co.s4n.osp.events.DomainEventType;
+import co.s4n.osp.exceptions.BusinessException;
+import co.s4n.osp.exceptions.HasSameStateException;
+import co.s4n.osp.observer.Observable;
+import co.s4n.osp.observer.Observer;
 
 /**
  * EntityWithStates

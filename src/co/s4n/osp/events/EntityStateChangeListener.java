@@ -1,9 +1,9 @@
-package co.s4n.os.events;
+package co.s4n.osp.events;
 
 import java.util.List;
 
-import co.s4n.os.EntityState;
-import co.s4n.os.observer.Observer;
+import co.s4n.osp.EntityState;
+import co.s4n.osp.observer.Observer;
 
 /**
  * EntityWithStates

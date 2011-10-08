@@ -2,10 +2,10 @@ package com.lsc.pqr.example;
 
 import java.util.List;
 
-import co.s4n.os.EntityWithStates;
-import co.s4n.os.EntityState;
-import co.s4n.os.events.DomainEvent;
-import co.s4n.os.observer.Observer;
+import co.s4n.osp.EntityState;
+import co.s4n.osp.EntityWithStates;
+import co.s4n.osp.events.DomainEvent;
+import co.s4n.osp.observer.Observer;
 
 /**
  * EntityWithStates

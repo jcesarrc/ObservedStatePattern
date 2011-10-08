@@ -1,9 +1,9 @@
-package co.s4n.os.events;
+package co.s4n.osp.events;
 
 import java.util.Calendar;
 import java.util.Date;
 
-import co.s4n.os.observer.IMessage;
+import co.s4n.osp.observer.IMessage;
 
 /**
  * EntityWithStates

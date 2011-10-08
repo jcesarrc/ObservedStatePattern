@@ -1,4 +1,4 @@
-package co.s4n.os.observer;
+package co.s4n.osp.observer;
 
 /**
  * EntityWithStates

@@ -1,4 +1,4 @@
-package co.s4n.os.events;
+package co.s4n.osp.events;
 
 /**
  * EntityWithStates

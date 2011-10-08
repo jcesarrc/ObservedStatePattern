@@ -2,10 +2,10 @@ package com.lsc.pqr.example.listeners;
 
 import java.util.List;
 
-import co.s4n.os.EntityState;
-import co.s4n.os.events.DomainEvent;
-import co.s4n.os.events.EntityStateChangeListener;
-import co.s4n.os.exceptions.BusinessException;
+import co.s4n.osp.EntityState;
+import co.s4n.osp.events.DomainEvent;
+import co.s4n.osp.events.EntityStateChangeListener;
+import co.s4n.osp.exceptions.BusinessException;
 
 /**
  * EntityWithStates
@@ -46,9 +46,9 @@ public class NotificationXXXEventListener extends EntityStateChangeListener
 	public void update( DomainEvent< EntityState > message ) throws BusinessException
 	{
 		if( amIInterested( message ) )
-			System.out.println( "Take your notification mother fucker!!!" );
+			System.out.println( "NotificationXXXEventListener is interested in the event: " + message.getType( ) );
 		else
-			System.out.println( "I'm not interested mother fucker ;-)" );
+			System.out.println( "NotificationXXXEventListener is *not* interested in the event: " + message.getType( ) );
 	}
 	
 //------------------------------

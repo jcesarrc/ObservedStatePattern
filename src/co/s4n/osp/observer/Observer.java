@@ -1,6 +1,6 @@
-package co.s4n.os.observer;
+package co.s4n.osp.observer;
 
-import co.s4n.os.exceptions.BusinessException;
+import co.s4n.osp.exceptions.BusinessException;
 
 
 /**

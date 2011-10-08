@@ -1,6 +1,6 @@
 package com.lsc.pqr.example.states;
 
-import co.s4n.os.EntityState;
+import co.s4n.osp.EntityState;
 
 /**
  * EntityWithStates
